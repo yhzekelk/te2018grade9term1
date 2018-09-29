@@ -30,7 +30,7 @@ let spankey = READLINE.question("Is Spankey smiling? (yes or no): ");
 // **** Problem 4: First Place ****
 // Write code that prints the largest of three scores. If there is a tie for
 // first place, simply print one of the tie winners.
-console.log("*** Problem 4: Largest Number ***");
+console.log("*** Problem 4: First Place ***");
 let score1 = READLINE.question("Enter the first score: ");
 let score2 = READLINE.question("Enter the second score: ");
 let score3 = READLINE.question("Enter the third score: ");
