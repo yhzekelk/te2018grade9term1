@@ -1,4 +1,3 @@
-// Author: FirstName LastName
 const READLINE = require("readline-sync");
 
 /******************************************************************************
@@ -8,11 +7,10 @@ const READLINE = require("readline-sync");
   your name as the author!
 *******************************************************************************/
 
-function printGreeting() {
-
-}
 
 /******************************************************************************
+                                 sayOneNine(num)
+
   This function takes a number between 1 and 9 (inclusive) as input and returns
   that same number in word form. If the number is not between 1 and 9, the
   function returns an empty string, which is just "".
@@ -22,11 +20,11 @@ function printGreeting() {
   sayOneNine(8) → "eight"
   sayOneNine(13) → ""
 *******************************************************************************/
-function sayOneNine(num) {
 
-}
 
 /******************************************************************************
+                                sayTenNineteen(num)
+
   This function takes a number between 10 and 19 (inclusive) as input and returns
   that same number in word form. If the number is not between 10 and 19, the
   function returns an empty string, which is just "".
@@ -36,11 +34,11 @@ function sayOneNine(num) {
   sayTenNineteen(15) → "fifteeen"
   sayTenNineteen(25) → ""
 *******************************************************************************/
-function sayTenNineteen(num) {
 
-}
 
 /******************************************************************************
+                              sayTwentyNinety(num)
+
   This function takes a number between 2 and 9 (inclusive) as input and returns
   that same number in word form, but in the tens place. If the number is not
   between 2 and 9, the function returns an empty string, which is just "".
@@ -50,11 +48,11 @@ function sayTenNineteen(num) {
   sayTwentyNinety(8) → "eighty"
   sayTwentyNinety(1) → ""
 *******************************************************************************/
-function sayTwentyNinety(num) {
 
-}
 
 /******************************************************************************
+                                sayNumber(num)
+
   This function calls the three functions above to convert an entire number (num)
   into word form, then returns that word. This function should be able to handle
   numbers from 0 to 9999 (inclusive).
@@ -77,18 +75,15 @@ function sayTwentyNinety(num) {
   sayNumber(9999) → "nine-thousand nine-hundred ninety-nine"
   sayNumber(75) → "seventy-five"
 *******************************************************************************/
-function sayNumber(num) {
 
-}
 
 /******************************************************************************
+                                    run()
+
   This function simply runs your program. At the very least it should greet the
   user, ask the user to enter a number between 0 and 9999, then print that
   number in word form.
 *******************************************************************************/
-function run() {
 
-}
 
-// Run the program!
-run();
+// Call run() below to run your program!
