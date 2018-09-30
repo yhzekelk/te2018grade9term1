@@ -15,7 +15,8 @@ let withAdult = READLINE.question("Are you with an adult? (yes or no): ");
 // that's bad luck. Write code that prints if someone should bring an umbrella
 // with them.
 console.log("*** Problem 2: Umbrella ***");
-let raining = READLINE.question("Is it raining? (yes or no): ")
+let raining = READLINE.question("Is it raining? (yes or no): ");
+let thunderstorming = READLINE.question("Is it thunderstorming? (yes or no): ");
 
 
 // **** Problem 3: Monkey Trouble ****
