@@ -1,15 +1,15 @@
 const READLINE = require("readline-sync");
 
-// **** Problem 1: R-rated ****
-// You cannot see an R-rated movie unless you are at least 18, or you are with
-// an adult. Write code that prints whether or not someone can see an
-// R-rated movie.
-console.log("*** Problem 1: R-rated ***");
-let age = READLINE.question("Enter your age: ");
-let withAdult = READLINE.question("Are you with an adult? (yes or no): ");
 
+let
 
-// **** Problem 2: Umbrella ****
+// **** Problem 1: Hello World ****
+// Write a function that, when called, prints "Hello world!" to the console.
+function helloWorld() {
+  console.log("Hello world!");
+}
+
+// **** Problem 2: What is your name? ****
 // You should bring an umbrella when you travel, but only if it is raining.
 // However, if it is thunderstorming, you should not bring an umbrella since
 // that's bad luck. Write code that prints if someone should bring an umbrella

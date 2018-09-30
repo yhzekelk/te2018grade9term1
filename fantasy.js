@@ -1,5 +1,5 @@
 // Author: FirstName LastName
-let readline = require("readline-sync");
+const READLINE = require("readline-sync");
 
 // global variables
 let firstName;
