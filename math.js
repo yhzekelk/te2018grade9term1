@@ -11,8 +11,6 @@ console.log(sum);
 // **** Problem 2 ****
 // Store the difference between sum (above) and 7 in a variable.
 // Print the difference.
-let diff = sum - 7;
-console.log(diff);
 
 
 // **** Problem 3 ****
